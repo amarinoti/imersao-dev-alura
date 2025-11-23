@@ -150,6 +150,7 @@ article a {
     font-weight: 700;  /* Peso da fonte */
     border-radius: 20px;  /* arredondamento das bordas */
     border: 1px solid #3fdf61;  /* cor e espessura das bordas */
+    padding: 10px;
 }
 
 .tag {
@@ -293,3 +294,4 @@ article a {
         margin-top: 1rem; /* Adiciona margem no topo */
     }
 }
+
