@@ -2,6 +2,7 @@
   {
     "titulo": "Entendendo algoritmos",
     "descricao": "Um guia ilustrado para programadores e outros curiosos. Um algoritmo nada mais é do que um procedimento passo a passo para a resolução de um problema. Os algoritmos que você mais utilizará como um programador já foram descobertos, testados e provados.",
+    "capa":"./img/capas/entendendo_algoritmo.jpg",
     "tag":"algoritmo",
     "ano_publicacao": 2017,
     "autor": "Aditya Y. Bhargava",
@@ -11,6 +12,7 @@
   {
    "titulo": "Apaixone-se pelo problema, não pela solução",
     "descricao": "Como cofundador do Waze, o principal aplicativo de transporte e navegação do mundo, com mais de 700 milhões de usuários e adquirido pelo Google em 2013 por 1,15 bilhão de dólares, Levine está empenhado em disseminar o pensamento empreendedor para que outros fundadores, gestores e colaboradores do setor tecnológico possam construir suas próprias empresas altamente valorizadas.",
+    "capa":"./img/capas/81LQ5Mr3cAL._SY425_.jpg",
     "tag":"empreendedorismo",
     "ano_publicacao": 2023,
     "autor": "Uri Levine",
@@ -20,6 +22,7 @@
   {
 "titulo": "Nexus: Uma breve história das redes de informação, da Idade da Pedra à inteligência artificial",
     "descricao": "O autor explora como as várias sociedades e sistemas políticos utilizaram informações para atingir seus objetivos – para o bem e para o mal –, assim como as escolhas que precisamos fazer num momento em que a inteligência não humana ameaça a nossa própria existência.",
+    "capa":"./img/capas/41s2xCK7a3L._SY445_SX342_QL70_ML2_.jpg",
     "tag":"inteligência artificial",
     "ano_publicacao": 2024,
     "autor": "Yuval Noah Harari",
@@ -29,6 +32,7 @@
   {
     "titulo": "Código Limpo: Habilidades Práticas do Agile Software",
     "descricao": "Um código ruim pode funcionar, mas é preciso que ele seja um **código limpo** para oferecer resultados. Neste livro, escrito pelo lendário artesão de software Robert C. Martin, o 'Uncle Bob', você aprenderá as melhores práticas para escrever códigos claros, legíveis e sustentáveis, uma habilidade essencial para qualquer desenvolvedor profissional. É uma leitura indispensável no universo de desenvolvimento ágil de software.",
+    "capa":"./img/capas/71dH97FwGbL._SY342_.jpg",
     "tag":"desenvolvimento de software",
     "ano_publicacao": 2009,
     "autor": "Robert C. Martin",
@@ -38,6 +42,7 @@
   {
     "titulo": "Arquitetura Limpa: O Guia do Artesão para Estrutura e Design de Software",
     "descricao": "As regras universais de **arquitetura de software** aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software. Aproveitando o sucesso de seus *best-sellers*, Robert C. Martin ('Uncle Bob') revela essas regras e ajuda o leitor a aplicá-las para construir sistemas que são fáceis de implantar, testar e manter.",
+    "capa":"./img/capas/815d9tE7jSL._SY385_.jpg",
     "tag":"design de softwar",
     "ano_publicacao": 2019,
     "autor": "Robert C. Martin",
@@ -47,6 +52,7 @@
   {
     "titulo": "O Programador Pragmático: De Aprendiz a Mestre",
     "descricao": "Este livro apresenta as melhores práticas e atalhos para produzir código mais limpo, mais rápido e com mais eficiência. Em uma série de tópicos curtos e envolventes, os autores ensinam a desenvolver software de forma **pragmática**, com foco em responsabilidade pessoal, projeto e testes de código, indo desde o design até a manutenção. Uma referência sobre como ser um melhor desenvolvedor de software.",
+    "capa":"./img/capas/41WH7HFsbzL._SY445_SX342_ML2_.jpg",
     "tag":"desenvolvimento de software",
     "ano_publicacao": 2010,
     "autor": "Andrew Hunt e David Thomas",
@@ -56,6 +62,7 @@
   {
     "titulo": "Padrões de Projeto: Soluções Reutilizáveis de Software Orientado a Objetos",
     "descricao": "Conhecido como o livro do 'Gang of Four' (GoF), ele introduz os **padrões de projeto** essenciais para resolver problemas comuns no design de software Orientado a Objetos (OO). É um guia fundamental para entender como usar e aplicar 23 padrões que tornam os projetos de software mais flexíveis, elegantes e reutilizáveis.",
+    "capa":"./img/capas/51bO3rI8hEL._SY445_SX342_ML2_.jpg",
     "tag":"desenvolvimento de software",
     "ano_publicacao": 2000,
     "autor": "Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides",
@@ -65,6 +72,7 @@
   {
     "titulo": "Refatoração: Aperfeiçoando o Design de Código Existente",
     "descricao": "A **refatoração** é o processo de melhorar o design do código sem alterar seu comportamento externo. Este guia essencial de Martin Fowler, agora atualizado, mostra como reconhecer o 'código fedorento' (code smell) e fornece um catálogo de refatorações testadas e comprovadas para tornar o código-fonte mais limpo, compreensível e fácil de manter. É crucial para quem trabalha com código legado.",
+    "capa":"./img/capas/4125lRe2M9L._SY445_SX342_ML2_.jpg",
     "tag":"desenvolvimento de software",
     "ano_publicacao": 2020,
     "autor": "Martin Fowler",
@@ -74,6 +82,7 @@
   {
     "titulo": "O Mítico Homem-Mês: Ensaios sobre Engenharia de Software",
     "descricao": "Nesta obra clássica, Fred Brooks Jr. compartilha lições atemporais sobre a **gestão de grandes projetos de software**. A principal tese é que 'acrescentar mão de obra a um projeto de software atrasado o torna ainda mais atrasado'. O livro discute temas como estimativa de tempo, manutenção da integridade conceitual e a importância da documentação, sendo um marco na literatura de engenharia de software.",
+    "capa":"./img/capas/51Rpep4MPnL._SY445_SX342_ML2_.jpg",
     "tag":"Engenharia de Software",
     "ano_publicacao": 2018,
     "autor": "Frederick P. Brooks Jr.",
@@ -83,6 +92,7 @@
   {
     "titulo": "Domain-Driven Design: Atacando a Complexidade no Coração do Software",
     "descricao": "Eric Evans apresenta o **Domain-Driven Design (DDD)**, uma abordagem que visa resolver problemas complexos de software, conectando a implementação do código com o modelo do domínio do negócio. O livro ensina a construir um 'modelo unificado' e a utilizar uma linguagem ubíqua entre desenvolvedores e especialistas de domínio para criar softwares que realmente atendam às necessidades do negócio.",
+    "capa":"./img/capas/51HGF9mg6iL._SY445_SX342_ML2_.jpg",
     "tag":"design de softwar",
     "ano_publicacao": 2016,
     "autor": "Eric Evans",
@@ -92,6 +102,7 @@
   {
     "titulo": "A startup enxuta: Como usar a inovação contínua para criar negócios radicalmente bem-sucedidos",
     "descricao": "Eric Ries apresenta a abordagem **Lean Startup** (Startup Enxuta), mudando a forma como as empresas constroem e lançam novos produtos. O foco é na iteração rápida, no aprendizado validado e na medição do progresso real (Métricas de vaidade vs. Métricas acionáveis). É um manual para empreendedores e gestores de tecnologia que desejam criar empresas de sucesso em um cenário de incerteza.",
+    "capa":"./img/capas/416I-JvxYgL._SY445_SX342_ML2_.jpg",
     "tag":"empreendedorismo",
     "ano_publicacao": 2019,
     "autor": "Eric Ries",
@@ -101,6 +112,7 @@
   {
     "titulo": "Scrum: A Arte de Fazer o Dobro do Trabalho na Metade do Tempo",
     "descricao": "Jeff Sutherland, cocriador do **Scrum**, compartilha como esta metodologia ágil pode transformar a maneira como você gerencia projetos e trabalha. O livro detalha como os princípios do Scrum podem ser aplicados para maximizar a produtividade e a qualidade, entregando mais valor em menos tempo, tornando-o essencial para líderes e equipes de desenvolvimento ágil.",
+    "capa":"./img/capas/514ZCPRQ-bL._SY445_SX342_ML2_.jpg",
     "tag":"metodologia ágil",
     "ano_publicacao": 2014,
     "autor": "Jeff Sutherland",
@@ -110,6 +122,7 @@
   {
     "titulo": "O andar do bêbado: Como o acaso determina nossas vidas",
     "descricao": "O andar do bêbado, do físico e matemático Leonard Mlodinow. Não estamos preparados para lidar com o aleatório e por isso não percebemos como o acaso interfere em nossas vidas. Nesse livro notável, Mlodinow combina os mais diferentes exemplos para mostrar que as notas escolares, diagnósticos médicos, sucesso de bilheteria e resultados eleitorais são, como muitas outras coisas, determinados por eventos imprevisíveis. Este livro instigante pões em xeque tudo que acreditamos saber sobre como o mundo funciona.",
+    "capa":"./img/capas/415341EcBhL._SY445_SX342_ML2_.jpg",
     "tag":"analise de dados",
     "ano_publicacao": 2018,
     "autor": "Leonard Mlodinow",
@@ -119,6 +132,7 @@
   {
     "titulo": "Construindo Aplicações Web com PHP e MYSQL",
     "descricao": "A construção de sites e aplicações cresce de forma acelerada na internet e, por trás de grande parte desses projetos, o PHP e o MySQL são utilizados por serem tecnologias muito eficientes e terem sido criados visando este nicho de mercado: aplicações web (intranet e internet). Com a capacidade de criar códigos de forma simples e rápida, o PHP é uma linguagem de programação extremamente funcional, com recursos voltados para web e em constante evolução.",
+    "capa":"./img/capas/61pXap5K4HL._SY385_.jpg",
     "tag":"linguagem de programação",
     "ano_publicacao": 2016,
     "autor": "André Milani",
@@ -128,6 +142,7 @@
   {
     "titulo": "Plataforma: a revolução da estratégia",
     "descricao": "Este é um guia mais do que autorizado sobre o papel das plataformas online: o que elas são, como funcionam e qual seu significado para as empresas e para a economia - Hal Varian, economista-chefe do Google.",
+    "capa":"./img/capas/41zhcJY1n3L._SY445_SX342_ML2_.jpg",
     "tag":"empreendedorismo",
     "ano_publicacao": 2019,
     "autor": "Geoffrey G. Parker",
@@ -137,6 +152,7 @@
   {
     "titulo": "Use a Cabeça Java",
     "descricao": "O 'Use a Cabeça Java' é uma experiência completa de aprendizado em Java e programação orientada a objetos. Com este livro, você aprenderá a linguagem Java de um jeito único, que ultrapassa os manuais de instruções, ajudando-o a se tornar um programador excelente.",
+    "capa":"./img/capas/41sWiXSdGTL._SY445_SX342_ML2_.jpg",
     "tag":"linguagem de programação",
     "ano_publicacao": 2024,
     "autor": "Kathy Sierra, Bert Bates, Trisha Gee",
@@ -146,6 +162,7 @@
   {
     "titulo": "Introdução à Programação com Python",
     "descricao": "Este livro se destina ao iniciante em programação e foi escrito para ajudar o leitor autodidata a aprender a programar. Também pode ser utilizado em cursos de introdução à computação e mesmo em cursos mais avançados, nos quais o domínio das técnicas básicas de programação e da linguagem Python sejam requeridos.",
+    "capa":"./img/capas/61OKqJ+8AzL._SY385_.jpg",
     "tag":"linguagem de programação",
     "ano_publicacao": 2024,
     "autor": "Nilo Ney Coutinho Menezes",
