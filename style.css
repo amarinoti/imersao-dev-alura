@@ -113,6 +113,11 @@ article {
     padding-bottom: 1.5rem; /* Espaçamento interno inferior */
 }
 
+ul {
+    list-style: none;  /* Remove os marcadores da lista */
+    line-height: 2; /* Altura da linha para melhor legibilidade */
+}
+
 article:hover {
     transform: scale(1.01); /* Aumenta ligeiramente o tamanho ao passar o mouse */
     cursor: pointer; /* Muda o cursor para uma mão */
@@ -160,7 +165,7 @@ article a {
     float: left; /* Alinha a imagem à esquerda */
     margin-right: 2em; /* Adiciona um espaço à direita da imagem para o texto não ficar colado */
     width: 140px; /* Largura fixa para o contêiner da thumbnail */
-    height: 160px; /* Altura fixa para o contêiner da thumbnail */
+    height: 170px; /* Altura fixa para o contêiner da thumbnail */
     display: flex;
     border: 1px solid #ccc;
     padding: 5px;
@@ -292,3 +297,4 @@ article a {
         margin-top: 1rem; /* Adiciona margem no topo */
     }
 }
+
