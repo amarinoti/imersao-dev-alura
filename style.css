@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
-
-* {
+ {
     box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
 }
 
@@ -93,13 +92,20 @@ div input:focus {
 
 main {
     overflow-y: scroll; /* Adiciona uma barra de rolagem vertical se o conteúdo exceder a altura */
-    max-width: 80rem; /* Largura máxima do conteúdo principal */
+    max-width: 90%; /* Largura máxima do conteúdo principal */
     margin: 0 auto; /* Centraliza o conteúdo principal horizontalmente */
     margin-top: 2rem; /* Margem no topo */
     height: calc(100vh - 10rem - 4rem); /* Calcula a altura para preencher o espaço restante da tela */
 }
 
+.card-container {
+    display: block;
+    flex-wrap: wrap; /* Permite quebrar linha se não houver espaço suficiente */
+}
+
 article {
+    width: 100%; /* Largura fixa para o contêiner da thumbnail */
+    height: auto; /* Altura fixa para o contêiner da thumbnail */
     background-color: #3c4043; /* Sem cor de fundo */
     border-radius: 5px; /* Sem bordas arredondadas */
     padding: 1rem 1rem; /* Espaçamento interno nos lados */
@@ -130,7 +136,6 @@ article p {
     margin: 0.5rem 0; /* Margem superior e inferior */
     line-height: 1.6; /* Altura da linha para melhor legibilidade */
     font-size: 1rem; /* Tamanho da fonte */
-    margin-bottom: 0.5rem; /* Margem inferior */
     color: var(--secondary-color); /* Cor do texto */
 }
 
@@ -144,20 +149,56 @@ article a {
     text-decoration: none; /* Remove o sublinhado padrão */
     font-weight: 700;  /* Peso da fonte */
     border-radius: 20px;  /* arredondamento das bordas */
-    padding: 16px;
     border: 1px solid #3fdf61;  /* cor e espessura das bordas */
-}
-
-article a:hover {
-    text-decoration: none; /* Adiciona sublinhado ao passar o mouse */
-    color: #000;
-    background-color: #3fdf61;
 }
 
 .tag {
     font-style: italic;
     color: var(--primary-color);
 }
+
+.thumbnail-container {
+    float: left; /* Alinha a imagem à esquerda */
+    margin-right: 2em; /* Adiciona um espaço à direita da imagem para o texto não ficar colado */
+    width: 140px; /* Largura fixa para o contêiner da thumbnail */
+    height: 160px; /* Altura fixa para o contêiner da thumbnail */
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none; /* Remove sublinhado do link */
+    overflow: hidden; /* Garante que nada saia do contêiner */
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para efeitos */
+}
+
+.thumbnail-container:hover {
+    transform: scale(1.05); /* Efeito de zoom leve ao passar o mouse */
+}
+
+.thumbnail-img {
+    width: 100%; /* Faz a imagem preencher toda a largura do contêiner */
+    height: 100%; /* Faz a imagem preencher toda a altura do contêiner */
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer (cortando se necessário) */
+    display: flex;
+}
+.link-compra {
+    display:flex;
+    width: 50%;
+    margin-top: 1em; /* Adiciona um espaço à direita da imagem para o texto não ficar colado */
+    color: var(--link-color); /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado padrão */
+    font-weight: 700;  /* Peso da fonte */
+    border-radius: 50px;  /* arredondamento das bordas */
+    padding: 10px;
+    border: 1px solid #3fdf61;  /* cor e espessura das bordas */
+}
+
+.link-compra:hover {
+    text-decoration: none; /* Adiciona sublinhado ao passar o mouse */
+    color: #000;
+    background-color: #3fdf61;
+}
+
 
 .footer {
     position: relative; /* Posicionamento absoluto em relação ao elemento pai posicionado */
