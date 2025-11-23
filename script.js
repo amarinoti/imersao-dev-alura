@@ -18,8 +18,8 @@ async function iniciarBusca() {
             let resposta = await fetch("data.json");
             dados = await resposta.json();
             
-            // Após carregar, renderiza o subconjunto inicial (os 5 primeiros)
-            renderizarCards(dados.slice(0, ITENS_INICIAIS));
+            // Após carregar, renderiza um subconjunto aleatório de itens iniciais
+            renderizarCards(obterItensAleatorios(dados, ITENS_INICIAIS));
             return; // Interrompe para que a busca completa só ocorra ao digitar
         } catch (error) {
             console.error("Falha ao buscar dados:", error);
@@ -38,7 +38,7 @@ async function iniciarBusca() {
 
     // Se o termo de busca estiver vazio, retorna aos itens iniciais para manter a visualização padrão.
     if (termoBusca.trim() === "") {
-        renderizarCards(dados.slice(0, ITENS_INICIAIS));
+        renderizarCards(obterItensAleatorios(dados, ITENS_INICIAIS));
         // NOVO: Atualiza a mensagem quando a visualização retorna ao estado inicial
         if (totalItemsDisplay) {
              totalItemsDisplay.textContent = `Total de livros na base: ${dados.length}. Exibindo ${ITENS_INICIAIS} para o início.`;
@@ -77,20 +77,45 @@ function renderizarCards(dados) {
         <h2>${dado.titulo}</h2>
         <p class="descricao">${dado.descricao}</p>
         <p class="tag">#${dado.tag}</p>
+        <a href="${dado.link}" target="_blank" class="thumbnail-container">
+            <img src="${dado.capa}" alt="capa do livro ${dado.titulo}" class="thumbnail-img">
+        </a>
         <h3>Informações da Publicação:</h3>
         <ul>
             <li>Autor: ${dado.autor}</li>
             <li>Editora: ${dado.editora}</li>
             <li>Ano: ${dado.ano_publicacao}</li>
         </ul>
-        <BR/>
-        <!-- Usando um ícone SVG inline como placeholder, pois o caminho /img/... pode não funcionar no ambiente -->
-        <a href="${dado.link}" target="_blank">
+        <a href="${dado.link}" target="_blank" class="link-compra">
           <svg style="display:inline-block; width: 1.2em; height: 1.2em; vertical-align: middle; margin-right: 0.5em;" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
           COMPRAR ESTE LIVRO</a>
         `;
         cardContainer.appendChild(article);
     }
+}
+
+/**
+ * Seleciona uma quantidade de itens aleatórios de um array, embaralhando-o.
+ * Usa o algoritmo Fisher-Yates para garantir uma distribuição uniforme.
+ * @param {Array} array - O array do qual selecionar os itens.
+ * @param {number} quantidade - O número de itens aleatórios a serem retornados.
+ * @returns {Array} Um novo array contendo os itens selecionados aleatoriamente.
+ */
+function obterItensAleatorios(array, quantidade) {
+    // Cria uma cópia do array para não modificar o original
+    const arrayEmbaralhado = [...array];
+    let indiceAtual = arrayEmbaralhado.length;
+
+    // Enquanto ainda houver elementos para embaralhar
+    while (indiceAtual !== 0) {
+        // Pega um elemento restante
+        let indiceAleatorio = Math.floor(Math.random() * indiceAtual);
+        indiceAtual--;
+        // E troca com o elemento atual
+        [arrayEmbaralhado[indiceAtual], arrayEmbaralhado[indiceAleatorio]] = [arrayEmbaralhado[indiceAleatorio], arrayEmbaralhado[indiceAtual]];
+    }
+    // Retorna a quantidade desejada de itens do array embaralhado
+    return arrayEmbaralhado.slice(0, quantidade);
 }
 
 /**
