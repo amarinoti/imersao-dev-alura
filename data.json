@@ -168,5 +168,36 @@
     "autor": "Nilo Ney Coutinho Menezes",
     "editora": "Novatec",
     "link": "https://amzn.to/4px2PYF"
+  },
+  {
+    "titulo": "Não me faça pensar",
+    "descricao": "Quantas vezes você se sentiu perdido em um site? Quantas outras falhou ao tentar entender como funcionava um aplicativo? Na maioria das vezes, a culpa não é sua. Muitos são os sites ou aplicativos com falhas de desenvolvimento que dificultam sua compreensão e uso. Profissionais de usabilidade estão aí para assegurar que isso não aconteça, indo na raiz do problema, identificando através de testes os pontos em que os usuários travam e propondo soluções.",
+    "capa":"./img/capas/51i8-f+QMFL._SY425_.jpg",
+    "tag":"usabilidade",
+    "ano_publicacao": 2014,
+    "autor": "Steve Krug",
+    "editora": "Alta Books",
+    "link": "https://amzn.to/48dGRD0"
+  },
+  {
+    "titulo": "Os Segredos do Vale do Silício",
+    "descricao": "Enquanto a economia global passa por momentos conturbados e muitos investidores continuam avessos ao risco, um pequeno canto da América, já responsável por algumas das principais inovações das últimas décadas, continua voando alto: o Vale do Silício. O livro Os Segredos do Vale do Silício, Deborah Perry Piscione revela a causa do surpreendente sucesso dessa comunidade. O livro nos leva para dentro de um ecossistema de empreendedorismo vibrante, que valoriza ideias inovadoras, onde a meritocracia prevalece, a colaboração e o compartilhamento de informações são essenciais, e as ideias são a principal moeda.",
+    "capa":"./img/capas/71RRaPLeswL._SY425_.jpg",
+    "tag":"inovação",
+    "ano_publicacao": 2018,
+    "autor": "Deborah Perry Piscione",
+    "editora": "Alta Books",
+    "link": "https://amzn.to/3LWp6AD"
+  },
+  {
+    "titulo": "10 mil Startups: Guia Prático Para Começar e Crescer um Novo Negócio Baseado em Tecnologia no Brasil",
+    "descricao": " Neste livro você aprenderá os passos para criar e fazer crescer uma startup, desde a fase de validação da ideia até o momento de crescimento acelerado, passando pela montagem do time, acordos societários, definição do modelo de negócios, captação de investimentos de risco, gestão financeira e acompanhamento de métricas de desempenho. Mais do que isso, terá conselhos práticos e dicas de quem tem muita experiência e já acompanhou milhares de startups por esse caminho.",
+    "capa":"./img/capas/71AcmcCE2pL._SY425_.jpg",
+    "tag":"empreendedorismo",
+    "ano_publicacao": 2025,
+    "autor": "Felipe Matos",
+    "editora": "Alta Books",
+    "link": "https://amzn.to/4a9EfbG"
   }
 ]
+
