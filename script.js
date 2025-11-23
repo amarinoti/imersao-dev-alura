@@ -78,7 +78,7 @@ function renderizarCards(dados) {
         <p class="descricao">${dado.descricao}</p>
         <p class="tag">#${dado.tag}</p>
         <a href="${dado.link}" target="_blank" class="thumbnail-container">
-            <img src="${dado.capa}" alt="capa do livro ${dado.titulo}" class="thumbnail-img">
+            <img class="thumbnail-img" src="${dado.capa}" alt="capa do livro ${dado.titulo}" title="Saiba mais sobre o livro ${dado.titulo}">
         </a>
         <h3>Informações da Publicação:</h3>
         <ul>
@@ -128,3 +128,4 @@ document.addEventListener("DOMContentLoaded", () => {
     // Adiciona o listener para o campo de busca, garantindo que a busca completa seja acionada ao digitar.
     campoBusca.addEventListener("input", iniciarBusca);
 });
+
