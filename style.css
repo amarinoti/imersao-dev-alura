@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
- {
-    box-sizing: border-box; /* Garante que padding e border não aumentem o tamanho total do elemento */
-}
 
 :root {
     --primary-color: #8ab4f8; /* Cor primária (azul claro) */
@@ -121,7 +118,7 @@ article:hover {
     cursor: pointer; /* Muda o cursor para uma mão */
 }
 
-article h2 {
+article h3 {
     margin-top: 0; /* Remove a margem superior */
     font-weight: 600; /* Peso da fonte */
     font-size: 1.6rem; /* Tamanho da fonte */
@@ -137,6 +134,7 @@ article p {
     line-height: 1.6; /* Altura da linha para melhor legibilidade */
     font-size: 1rem; /* Tamanho da fonte */
     color: var(--secondary-color); /* Cor do texto */
+    padding-right: 30px;
 }
 
 article p strong {
@@ -148,9 +146,9 @@ article a {
     color: var(--link-color); /* Cor do link */
     text-decoration: none; /* Remove o sublinhado padrão */
     font-weight: 700;  /* Peso da fonte */
-    border-radius: 20px;  /* arredondamento das bordas */
-    border: 1px solid #3fdf61;  /* cor e espessura das bordas */
     padding: 10px;
+    border-radius: 20px;  /* arredondamento das bordas */
+    border: 1px solid var(--link-color);  /* cor e espessura das bordas */
 }
 
 .tag {
@@ -191,18 +189,18 @@ article a {
     font-weight: 700;  /* Peso da fonte */
     border-radius: 50px;  /* arredondamento das bordas */
     padding: 10px;
-    border: 1px solid #3fdf61;  /* cor e espessura das bordas */
+    border: 1px solid var(--link-color);  /* cor e espessura das bordas */
 }
 
 .link-compra:hover {
     text-decoration: none; /* Adiciona sublinhado ao passar o mouse */
     color: #000;
-    background-color: #3fdf61;
+    background-color: var(--link-color);
 }
 
 
 .footer {
-    position: relative; /* Posicionamento absoluto em relação ao elemento pai posicionado */
+    position: relative; /* Posicionamento relativamente em relação ao elemento pai posicionado */
     bottom: 0; /* Alinha na parte inferior */
     left: 0; /* Alinha à esquerda */
     width: 100%; /* Largura total */
@@ -294,4 +292,3 @@ article a {
         margin-top: 1rem; /* Adiciona margem no topo */
     }
 }
-
