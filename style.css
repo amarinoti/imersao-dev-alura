@@ -123,7 +123,7 @@ article:hover {
     cursor: pointer; /* Muda o cursor para uma mão */
 }
 
-article h3 {
+article h2 {
     margin-top: 0; /* Remove a margem superior */
     font-weight: 600; /* Peso da fonte */
     font-size: 1.6rem; /* Tamanho da fonte */
@@ -297,4 +297,5 @@ article a {
         margin-top: 1rem; /* Adiciona margem no topo */
     }
 }
+
 
