@@ -43,7 +43,7 @@
     "titulo": "Arquitetura Limpa: O Guia do Artesão para Estrutura e Design de Software",
     "descricao": "As regras universais de **arquitetura de software** aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software. Aproveitando o sucesso de seus *best-sellers*, Robert C. Martin ('Uncle Bob') revela essas regras e ajuda o leitor a aplicá-las para construir sistemas que são fáceis de implantar, testar e manter.",
     "capa":"./img/capas/815d9tE7jSL._SY385_.jpg",
-    "tag":"design de softwar",
+    "tag":"design de software",
     "ano_publicacao": 2019,
     "autor": "Robert C. Martin",
     "editora": "Alta Books",
@@ -93,7 +93,7 @@
     "titulo": "Domain-Driven Design: Atacando a Complexidade no Coração do Software",
     "descricao": "Eric Evans apresenta o **Domain-Driven Design (DDD)**, uma abordagem que visa resolver problemas complexos de software, conectando a implementação do código com o modelo do domínio do negócio. O livro ensina a construir um 'modelo unificado' e a utilizar uma linguagem ubíqua entre desenvolvedores e especialistas de domínio para criar softwares que realmente atendam às necessidades do negócio.",
     "capa":"./img/capas/51HGF9mg6iL._SY445_SX342_ML2_.jpg",
-    "tag":"design de softwar",
+    "tag":"design de software",
     "ano_publicacao": 2016,
     "autor": "Eric Evans",
     "editora": "Alta Books",
@@ -200,4 +200,5 @@
     "link": "https://amzn.to/4a9EfbG"
   }
 ]
+
 
